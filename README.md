@@ -49,9 +49,8 @@ npm run dev
 
 3. Open your browser and navigate to:
 ```
-http://localhost:5173
+http://localhost:5000
 ```
-(Note: Vite typically uses port 5173, not 5000)
 
 ### Available Scripts
 
