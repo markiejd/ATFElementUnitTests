@@ -1,0 +1,37 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: white; /* Set navbar background to white */
+  color: #333333; /* CGI Gray text color */
+  border-bottom: 1px solid #ccc; /* Optional: Add a subtle border at the bottom */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+  color: #333333 !important; /* Apply CGI Gray text color */
+  font-size: 1.2rem; /* Increase font size for better readability */
+  font-weight: bold; /* Bold text */
+}
+
+.custom-navbar .navbar-brand img {
+  margin-right: 10px; /* Space between the logo and text */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #666666 !important; /* Slightly darker color on hover */
+}
+
+.custom-navbar .navbar-toggler {
+  border: none; /* Remove border for the toggler */
+  color: #333333;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #333333; /* Optional: Make the toggler icon match text color */
+}
+
+/* Active Link Styles */
+.active-link {
+  color: #5236AB !important; /* Purple color for active link */
+  border-bottom: 3px solid #5236AB; /* Add a purple line below active link */
+  pointer-events: none; /* Disable click on active link */
+}

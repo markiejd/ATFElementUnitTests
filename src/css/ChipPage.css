@@ -1,0 +1,149 @@
+.button-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0.5rem;
+}
+
+.nav-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list button:hover {
+    background-color: #0056b3;
+}
+
+.chip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #e9ecef;
+    color: #495057;
+    cursor: default;
+}
+
+.chip-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.chip-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.chip-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.chip-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.chip-default {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.chip-clickable {
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.chip-clickable:hover {
+    transform: scale(1.05);
+}
+
+.chip-remove {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #495057;
+}
+
+.chip-remove:hover {
+    color: #dc3545;
+}
+
+.chip-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.chip-selected {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button-styled {
+    display: flex;
+    justify-content: center; /* Aligns buttons in the center */
+    gap: 15px; /* Ensures spacing between buttons */
+    margin-top: 15px; /* Moves buttons slightly down */
+    padding: 20px; /* Maintains styling from the removed container */
+    border-radius: 10px; /* Retains rounded edges */
+}
+
+
+.btn {
+    width: 160px; /* Ensures both buttons have the same width */
+    height: 50px; /* Ensures both buttons have the same height */
+    font-size: 1rem; /* Keeps text readable */
+    padding: 10px 0; /* Adjust vertical padding */
+    text-align: center; /* Centers text */
+    white-space: nowrap; /* Prevents text wrapping */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}

@@ -1,0 +1,108 @@
+/* Centered Table Page */
+.table-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* General Table Styling */
+table {
+    width: 90%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure table text is always readable */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    color: #222; /* Darker text for better contrast */
+    font-weight: 500;
+}
+
+/* Ensure table background does not interfere with text readability */
+tbody tr {
+    background-color: white; /* Ensures rows remain readable */
+}
+
+/* Improve header styling */
+th {
+    background-color: #007bff; /* Blue background for headers */
+    color: white !important; /* White text for contrast */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Ensure alternate row shading for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+
+/* Search Input Styling */
+.search-input {
+    width: 280px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.pagination-controls .btn {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Dynamic Table - Add User Form */
+.add-user-form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Style for input fields */
+.add-user-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Add User Button */
+.add-user-button {
+    width: 180px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Delete Icon */
+.bin-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: red;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.bin-icon:hover {
+    transform: scale(1.2);
+    color: darkred;
+}

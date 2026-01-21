@@ -1,0 +1,93 @@
+/* Overall Page Styling */
+.link-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header Styling */
+.page-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Dynamic Links Container */
+.dynamic-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Individual Link Card */
+.dynamic-link-card {
+    background: linear-gradient(90deg, #E31937 0%, #5236AB 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dynamic-link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Link Text */
+.link-text {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Delete Icon */
+.delete-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.delete-icon:hover {
+    transform: scale(1.2);
+    color: #ffcccc;
+}
+
+/* Controls Section */
+.link-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Dropdown Styling */
+.form-select {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Add Link Button */
+.add-link-btn {
+    width: 150px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}

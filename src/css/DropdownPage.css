@@ -1,0 +1,132 @@
+.button-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0.5rem;
+}
+
+.nav-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+.dropdown-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.animated-dropdown {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.animated-dropdown:hover {
+    border-color: #007bff;
+    transform: scale(1.02);
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds some spacing between input and button */
+    margin-top: 1rem;
+}
+
+.input-container input {
+    width: 300px; /* Adjust the width as needed */
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-styled {
+    display: flex;
+    justify-content: center; /* Align buttons in the center */
+    gap: 15px; /* Space between buttons */
+    margin-top: 15px; /* Adjust positioning */
+    padding: 10px; /* Adds some padding */
+    border-radius: 10px; /* Retains rounded edges */
+}
+
+
+.searchable-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Space between input, dropdown, and heading */
+    padding: 20px;
+}
+
+.search-input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.styled-dropdown {
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.styled-dropdown:hover,
+.styled-dropdown:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}

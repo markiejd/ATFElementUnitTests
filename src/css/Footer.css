@@ -1,0 +1,17 @@
+/* Footer Styling */
+.footer {
+    position: fixed; /* Make the footer fixed at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ensure the footer spans the full width of the screen */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333333; /* CGI Gray text color */
+    text-align: center;
+    padding: 10px 0; /* Add some padding for better spacing */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.footer-content {
+    font-size: 0.9rem; /* Adjust font size for a clean look */
+}

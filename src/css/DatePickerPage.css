@@ -1,0 +1,76 @@
+.button-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0.5rem;
+}
+
+.nav-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list button:hover {
+    background-color: #0056b3;
+}
+
+.date-picker,
+.time-picker {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: auto;
+}
+
+.date-range {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.picker-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+/* Centering the Range Date Picker */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontal Centering */
+    justify-content: center; /* Vertical Centering */
+    text-align: center; /* Center align text */
+}
+
+.date-range {
+    display: flex;
+    gap: 20px; /* Space between Start Date and End Date */
+    margin-top: 20px;
+}
+
+.date-picker {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

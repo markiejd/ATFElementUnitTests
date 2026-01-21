@@ -1,0 +1,102 @@
+.button-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0.5rem;
+}
+
+.nav-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list button:hover {
+    background-color: #0056b3;
+}
+
+.slider-basic,
+.slider-range,
+.slider-dynamic,
+.slider-styled,
+.slider-interactive {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.slider-styled {
+    appearance: none;
+    background: linear-gradient(90deg, #007bff 0%, #6c757d 100%);
+    height: 8px;
+    border-radius: 4px;
+    outline: none;
+    transition: opacity 0.3s ease;
+}
+
+.slider-styled::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.slider-styled::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.slider-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Ensure buttons have proper spacing */
+.slider-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 15px; /* Separates from the sliders */
+}
+
+/* Adjust button sizes for consistency */
+.slider-buttons .btn {
+    width: 200px; /* Ensures all buttons have the same width */
+    padding: 12px; /* Adds comfortable padding */
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Improve secondary button styling */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}

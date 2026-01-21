@@ -1,0 +1,291 @@
+.button-nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0.5rem;
+}
+
+.nav-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list button:hover {
+    background-color: #0056b3;
+}
+
+.image-display {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.image-basic {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-responsive {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-hover {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.image-gallery-item {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-clickable {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-clickable:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.comparison-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.comparison-before,
+.comparison-after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    transition: clip-path 0.3s ease;
+}
+
+.comparison-slider {
+    position: absolute;
+    bottom: -40px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+/* General styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Image-specific styles */
+/* Image-specific styles */
+.image-selected {
+    max-width: 100%;
+    max-height: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Inline controls for width and height */
+.resize-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-group .form-range {
+    flex: 1;
+}
+
+.control-group .form-control {
+    width: 80px;
+}
+
+input[type="file"] {
+    width: 250px; /* Increase width slightly */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Center the entire Resize Image section */
+.resize-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all elements */
+    justify-content: center; /* Centers vertically */
+    text-align: center;
+    gap: 15px; /* Spacing between elements */
+}
+
+/* Style for the file input */
+.file-input {
+    width: 260px; /* Slightly wider */
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Center the width and height controls */
+.resize-controls {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Space between width & height controls */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Styles for the width/height labels and inputs */
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Style for sliders */
+.control-group .form-range {
+    flex: 1;
+    width: 150px;
+}
+
+/* Style for number input fields */
+.control-group .form-control {
+    width: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.validation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything */
+    text-align: center;
+    gap: 15px;
+}
+
+.validation-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between width & height inputs */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.file-input {
+    width: 260px; /* Slightly wider for better usability */
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-group .form-control {
+    width: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.flip-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flip-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 15px;
+}
+
+.flip-buttons .btn {
+    width: 180px;
+    padding: 10px;
+    font-size: 16px;
+}
+

@@ -1,0 +1,119 @@
+/* Center the list page */
+.list-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* General list styling */
+.list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Individual list item */
+.list-item {
+    background: white;
+    color: #222;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-item:hover {
+    transform: scale(1.05);
+}
+
+/* Numbered & Bulleted Lists */
+.list-numbered {
+    list-style: decimal inside;
+}
+
+.list-bulleted {
+    list-style: disc inside;
+}
+
+/* Interactive List */
+.interactive-item {
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.interactive-item:hover {
+    color: #007bff;
+}
+
+/* Dynamic List with Delete Icon */
+.list-dynamic .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-icon {
+    color: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.delete-icon:hover {
+    color: darkred;
+}
+
+/* Drag & Drop List */
+.drag-drop-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+}
+
+.drag-drop-item {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: grab;
+    margin-bottom: 12px; /* Increased space between blue buttons */
+}
+
+.drag-drop-item:last-child {
+    margin-bottom: 0; /* Prevents extra spacing at the end */
+}
+
+
+.drag-drop-item:hover {
+    background: #0056b3;
+}
+
+.drag-drop-item:last-child {
+    margin-bottom: 0; /* Prevents extra spacing at the end */
+}
+
+.add-item-button {
+    width: 150px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px; /* Keeps space between input and button */
+    margin-bottom: 25px; /* Adds more space between button and first list item */
+}
+
