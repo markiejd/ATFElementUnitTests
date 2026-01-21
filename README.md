@@ -1,28 +1,71 @@
-##  Need instructions on how to get this to run.. 
+# ATF Element Unit Tests
 
-From the command prompt:-
-### `npm install`
-This installs all the requirements
+A comprehensive UI component testing and demonstration application built with React and Vite. This application provides an interactive environment to explore and test various UI elements commonly used in web applications.
 
-### `npm run dev`
-This starts the webservice
+## What This Application Does
 
-http://localhost:3001/
+This is a visual testing sandbox that showcases and allows you to interact with multiple UI components including:
 
+- **Buttons** - Various button styles and states
+- **Accordions** - Expandable/collapsible content sections
+- **Alerts** - Different alert types and notifications
+- **Checkboxes** - Checkbox inputs and groups
+- **Chips** - Tag/badge components
+- **Date Pickers** - Calendar-based date selection
+- **Dropdowns** - Select menus and dropdown components
+- **Images** - Image handling and display
+- **Links** - Navigation links and hyperlinks
+- **Lists** - Ordered and unordered lists
+- **Radio Buttons** - Radio button groups
+- **Sliders** - Range input controls
+- **Spans** - Text span elements
+- **Spinners** - Loading indicators
+- **Tables** - Data tables with sorting, searching, and pagination
+- **Tabs** - Tabbed navigation interfaces
+- **Textboxes** - Text input fields
 
-### DEPLOY to Azure
-The pipeline will upload any changes to the TRUNK branch direct to Azure 
-https://victorious-desert-069ae8103.6.azurestaticapps.net/
+Each component page provides a detailed demonstration of its functionality, making this application useful for:
+- Testing UI component behavior
+- Visual regression testing
+- Component showcase and documentation
+- Learning React component patterns
 
-# React + Vite
+## Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Prerequisites
+- Node.js and npm installed on your system
 
-Currently, two official plugins are available:
+### Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install all dependencies:
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+2. Start the development server:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Open your browser and navigate to:
+```
+http://localhost:5173
+```
+(Note: Vite typically uses port 5173, not 5000)
+
+### Available Scripts
+
+- `npm run dev` - Starts the development server with hot module replacement
+- `npm run build` - Creates an optimized production build
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Technology Stack
+
+- **React 19** - UI library
+- **Vite** - Build tool and development server
+- **React Router** - Client-side routing
+- **Bootstrap 5** - CSS framework
+- **React Bootstrap** - Bootstrap components for React
+- **Font Awesome** - Icon library
+- **ESLint** - Code linting
